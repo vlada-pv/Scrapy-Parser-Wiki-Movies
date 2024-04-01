@@ -3,14 +3,14 @@ The written parser collects information (title, genre, director, country, year o
 
 ## Installation and Setup
 Clone the repository and navigate to the project directory:
-'''html
+```html
 git clone https://github.com/vlada-pv/scrapy-parser-homework.git
-
 cd wiki_movies_scraper
-'''
+```
 
 ## Usage
 To run the parser, type the following command:
-'''html
+```html
 scrapy crawl movies_spider
-'''
+```
+```

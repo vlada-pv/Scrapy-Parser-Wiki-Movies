@@ -1,2 +1,16 @@
-## Парсинг данных о фильмах с помощью Scrapy
-Написанный парсер на Scrapy выполнен в рамках домашнего задания от ШАД МТС. Он собирает информацию (название, жанр, режиссёр, страна, год выпуска) о фильмах с Википедии. В качестве стартовой страницы была выбрана следующая — ru.wikipedia.org/wiki/Категория:Фильмы_по_алфавиту
+# Movie Information Scraper
+The written parser collects information (title, genre, director, country, year of release) about films from Wikipedia. The following was selected as the start page — ru.wikipedia.org/wiki/Category:Film_alphabitu. The data is saved to a csv file.
+
+## Installation and Setup
+Clone the repository and navigate to the project directory:
+'''html
+git clone https://github.com/vlada-pv/scrapy-parser-homework.git
+
+cd wiki_movies_scraper
+'''
+
+## Usage
+To run the parser, type the following command:
+'''html
+scrapy crawl movies_spider
+'''
